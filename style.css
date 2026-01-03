@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mona Sans", sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 50px;
+    align-items: center;
+    background-color: #323647;
+    font-size: 25px;
+}
+
+.hlist{
+    width: 35%;
+    height: 24px;
+}
+
+.hlist ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+@media (min-width: 951px){
+    .fourdash{
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .head{
+        padding: 0px 30px;
+    }
+    
+    .hlist{
+        display: none;
+    }
+}
+
+.first1{
+    width: 100%;
+    background-color:#323647;
+    height: 600px;
+    align-content: center;
+    background-image: url('./Images/victor.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first{
+    margin: 0px 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.name{
+    width: 30%;
+}
+
+.name h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.intro{
+    width: 35%;
+}
+
+.social{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+@media (max-width: 950px) {
+    .first1{
+        height: 700px;
+        justify-content: center;
+        background-position: right;
+        background-size: contain;
+    }
+
+    .first{
+        display: block;
+        height: 700px;
+    }
+
+    .intro{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    .first1{
+        background-image: none;
+        width: 100%;
+        height: 600px;
+        justify-items: center;
+    }
+
+    .first{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .name, .intro{
+        width: 80%;
+    }
+
+    .social{
+        justify-content: center;
+    }
+}
+
+
+.second1{
+    width: 100%;
+    height: 700px;
+    background-color: #242734;
+    /* position: relative; */
+}
+
+.second{
+    margin: 0px 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #242734;
+}
+
+.contact{
+    width: 35%;
+}
+
+.create{
+    width: 45%;
+}
+
+.numwords{
+    display: flex;
+    gap: 70px;
+}
+
+.nm1{
+    display: flex;
+    gap: 15px;
+}
+
+.num{
+    font-size: 70px;
+    color: #c02a2c;
+}
+
+.word{
+    padding-top: 40px;
+    font-size: 15px;
+}
+
+@media (max-width: 950px) {
+    .second1{
+        height: 950px;
+        justify-content: center;
+    }
+
+    .second{
+        display: block;
+        height: 800px;
+    }
+
+    .contact{
+        width: 90%;
+    }
+
+    .create{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .second1{
+        height: 900px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .second{
+        height: 750px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .contact, .create{
+        width: 80%;
+    }
+}
+
+.pd1{
+    background-color: #c02a2c;
+    height: 300px;
+    width:300px;
+    align-content: center;
+    justify-items: center;
+}
+
+.pd{
+    display: flex;
+    gap: 30px;
+    width: 70%;
+}
+
+.pdsvg{
+    padding-top: 5px;
+}
+
+.bd1{
+    background-color: #424657;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    justify-items: center;
+}
+
+.bd{
+    display: flex;
+    gap: 30px;
+    width: 70%;
+}
+
+.bdsvg{
+    padding-top: 5px;
+}
+
+@media (min-width: 951px){
+    .hang{
+        position: relative;
+        top: 110px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    .hang{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pd1, .bd1{
+        width: 48%;
+    }
+}
+
+.third1{
+    padding-top: 200px;
+    width: 100%;
+    height: 1000px;
+    background-color: #323647;
+}
+
+.third{
+    margin: 0px 150px;
+    padding-top: 50px;
+}
+
+.portimg{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.pimg img{
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 950px) {
+    .third1{
+        height: 1700px;
+    }
+
+    .portimg{
+        display: block;
+        justify-items: center;
+    }
+
+    .pimg img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .pimg2{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .third1{
+        height: 1200px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .third{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .portfolio{
+        width: 80%;
+    }
+
+    .pimg img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.fourth1{
+    width: 100%;
+    background-color: #242734;
+    height: 600px;
+    align-content: center;
+}
+
+.fourth{
+    margin: 0px 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 950px) {
+    .fourth{
+        display: block;
+        height: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fourth1{
+        height: 600px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .fourth{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .content{
+        margin-top: 20px;
+    }
+}
+
+.fifth1{
+    width: 100%;
+    background-color: #323647;
+    height: 600px;
+    align-content: center;
+}
+
+.fifth{
+    margin: 0px 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+
+.gap{
+    width: 40%;
+}
+
+.estimate{
+    width: 45%;
+}
+
+.sixth{
+    margin: 0px 150px;
+    padding-top: 50px;
+    height: 200px;
+    align-content: center;
+    justify-items: center;
+}
+
+@media (max-width: 950px) {
+    .fifth1{
+        height: 600px;
+    }
+
+    .fifth{
+        display: block;
+        height: 400px;
+    }
+
+    .gap{
+        width: 100%;
+    }
+
+    .estimate{
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .fifth1{
+        height: 600px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .fifth{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .gap, .estimate{
+        width: 80%;
+    }
+
+    .sixth{
+        width: 100%;
+        justify-items: center;
+    }
+}
