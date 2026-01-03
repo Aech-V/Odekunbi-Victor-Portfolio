@@ -28,13 +28,13 @@
     padding: 0px;
 }
 
-@media (min-width: 951px){
+@media (min-width: 1201px){
     .fourdash{
         display: none;
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
     .head{
         padding: 0px 30px;
     }
@@ -285,6 +285,21 @@
 .pimg img{
     width: 500px;
     height: 500px;
+}
+
+@media (min-width: 950px) and (max-width: 1200px){
+    .third1{
+        height: 1700px;
+    }
+
+    .portimg{
+        display: block;
+        justify-items: center;
+    }
+
+    .pimg2{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 950px) {
